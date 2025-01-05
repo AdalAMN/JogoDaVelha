@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo da Velha</title>
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>JOGO DA VELHA</h1>
+        <p id="jogador"></p>
+        <p id="resultado"></p>
+        <table border="1">
+            <tr>
+                <td><div id="quadrante_0" style="width: 100px; height: 100px;" onclick="jogar(0)"></div></td>
+                <td><div id="quadrante_1" style="width: 100px; height: 100px;" onclick="jogar(1)"></div></td>
+                <td><div id="quadrante_2" style="width: 100px; height: 100px;" onclick="jogar(2)"></div></td>
+            </tr>
+            <tr>
+                <td><div id="quadrante_3" style="width: 100px; height: 100px;" onclick="jogar(3)"></div></td>
+                <td><div id="quadrante_4" style="width: 100px; height: 100px;" onclick="jogar(4)"></div></td>
+                <td><div id="quadrante_5" style="width: 100px; height: 100px;" onclick="jogar(5)"></div></td>
+            </tr>
+            <tr>
+                <td><div id="quadrante_6" style="width: 100px; height: 100px;" onclick="jogar(6)"></div></td>
+                <td><div id="quadrante_7" style="width: 100px; height: 100px;" onclick="jogar(7)"></div></td>
+                <td><div id="quadrante_8" style="width: 100px; height: 100px;" onclick="jogar(8)"></div></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button onclick="novoJogo()">Novo Jogo</button>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
